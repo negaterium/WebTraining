@@ -80,8 +80,48 @@ public class Main {
         // H2.P9
         System.out.println("H2.P9");
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-        System.out.print("Speed calculation");
+        System.out.println("Speed calculation");
         calculatorMethod.convertMetersTime(60000, 1, 0, 0);
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H3.P4
+        System.out.println("H3.P4");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("String comparison");
+        operatiiLogice.compareString("Test");
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H3.P5
+        System.out.println("H3.P5");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("String and number comparison");
+        System.out.println(operatiiLogice.compareStringInt("Evozon", 2));
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H3.P9
+        System.out.println("H3.P9");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("Is number even");
+        System.out.println(operatiiLogice.isEven(2));
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H3.P10
+        System.out.println("H3.P10");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("Has the right to vote?");
+        System.out.println(operatiiLogice.rightToVote(22));
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H3.P11
+        System.out.println("H3.P11");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println("Bigger number");
+        System.out.println(operatiiLogice.biggerOfThree(22, 23, 1));
         System.out.println("------------------------------");
         System.out.println();
 
