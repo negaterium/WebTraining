@@ -19,7 +19,7 @@ public class Main {
         System.out.println("H1.P2");
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.print("Suma a 2 numere este: ");
-        calculatorMethod.sumTwoNumbers(10, 3);
+        System.out.println(calculatorMethod.sumTwoNumbers(10, 3));
         System.out.println("------------------------------");
         System.out.println();
 
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("H1.P3");
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.print("Impartirea a 2 numere este: ");
-        calculatorMethod.divisionTwoNumbers(10, 3);
+        System.out.println(calculatorMethod.divisionTwoNumbers(10, 3));
         System.out.println("------------------------------");
         System.out.println();
 
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("H1.P4");
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println("Operatii multiple: ");
-        calculatorMethod.sumTwoNumbers(-5, 8*6);
+        System.out.println(calculatorMethod.sumTwoNumbers(-5, 8*6));
         System.out.println("Modulo: (55+9) % 9");
         System.out.println((55+9)%9);
         System.out.println("Suma: 20 + -3*5/8 = ");
@@ -44,5 +44,46 @@ public class Main {
         System.out.println(5+15f/(3*2)-8%3);
         System.out.println("------------------------------");
         System.out.println();
+
+        // H2.P4
+        System.out.println("H2.P4");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.print("Media aritmetica a 3 numere este: ");
+        System.out.println(calculatorMethod.aritmedThreeNumbers(10, 3, 7));
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H2.P6
+        System.out.println("H2.P6");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.print("Restul impartiri a doua numere este: ");
+        System.out.println(calculatorMethod.moduloNumber(10, 3));
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H2.P7
+        System.out.println("H2.P7");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.print("Conversie C to F: ");
+        System.out.println(calculatorMethod.convertFahrenheit(100));
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H2.P8
+        System.out.println("H2.P8");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.print("Conversie inch to meters: ");
+        System.out.println(calculatorMethod.convertInchToMeters(100));
+        System.out.println("------------------------------");
+        System.out.println();
+
+        // H2.P9
+        System.out.println("H2.P9");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.print("Speed calculation");
+        calculatorMethod.convertMetersTime(60000, 1, 0, 0);
+        System.out.println("------------------------------");
+        System.out.println();
+
     }
 }
