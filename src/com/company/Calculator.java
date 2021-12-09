@@ -61,5 +61,12 @@ public class Calculator {
         System.out.println("Speed in Miles/h: " + speedmiles);
     }
 
-
+    public float averageNumbers(int min, int max)
+    {
+        float sum=0, med=0;
+        for(int i=min;i<=max;i++)
+            sum+=i;
+        med = sum/(max-min+1);
+        return med;
+    }
 }
