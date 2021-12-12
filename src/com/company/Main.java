@@ -153,7 +153,7 @@ public class Main {
         myList.add(1);
         myList.add(2);
         myList.add(3);
-        myList.add(10);
+        myList.add(4);
         miscMethod.dispListFromNumber(myList, 2);
         System.out.println("Max din lista este: " + miscMethod.returnMaxInList(myList));
         System.out.println("Lista cu numere pare este: " + miscMethod.returnEvenList(myList));
@@ -227,5 +227,10 @@ public class Main {
         System.out.println("------------------------------");
         System.out.println();
 
+        ReadFromKeyboard readObject = new ReadFromKeyboard();
+        //readObject.getInt();
+
+        int[] testArray = readObject.getIntArray();
+        arrOp.printArray(testArray);
     }
 }

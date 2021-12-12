@@ -60,5 +60,4 @@ public class ArrayListsOps {
             tempList.add(0,i);
         return tempList;
     }
-
 }
