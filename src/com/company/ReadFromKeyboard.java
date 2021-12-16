@@ -47,8 +47,6 @@ public class ReadFromKeyboard {
             }catch (InputMismatchException e){
                 System.err.println("Incorrect value ->" + e);
             }
-
-
         }while(true);
 
     }

@@ -45,6 +45,7 @@ public class RunMain {
                     System.out.print("Enter second number:");
                     n2 = iUtil.getInt();
                     System.out.println("Rezultatul adunarii este:" + cUtil.sumTwoNumbers(n1, n2));
+                    cUtil.computeSumList();
                     sUtil.waitFor(2);
                 case 2:
                     System.out.print("Enter first number:");
